@@ -1,0 +1,12 @@
+body {  font-family: Arial, sans-serif; background-color: lightgreen; }
+p{font-size: 18px;}
+
+.content {max-width: 600px; margin: 10px auto; }
+
+.house{ float: left;
+         shape-outside: url(house.png); 
+      }
+ 
+ img{
+    height: 250px;
+ }

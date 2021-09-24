@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Great movie titles</title>
+   <meta name="description" content="a list of great movie titles, name of director and trailer">
+   <meta charset="utf-8">
+   <style>
+    body { background-color: #DEB887; color: #212121; }
+    header {width: 60%; background-image:url("banner.png"); margin: 0 auto; text-align: center; font-size: 1.5rem; color: black; border-shadow: 5px 5px 5px gray;}
+    div { width: 80%; margin: 0 auto; border: 2px solid #D2691E; padding: 0 10px;}
+    footer {width: 60%; margin: 10px auto; padding: 3px 0; text-align:center; background-color: #A52A2A; color:white; font-size: 0.9rem;}	 
+    footer img {float:left; margin: 0 5px 5px 0;}
+     a{
+      position: relative;
+      bottom: 75px;
+    }
+  </style>
+</head>
+<body>
+<header role="banner">
+<h1 aria-label="Great movies to watch">Great Movies</h1>
+<h2 aria-label="some of the best directors include">Great Directors</h2>
+</header>
+<main>
+
+
+<div aria-controls="person1" aria-controls="moviecontainer1" aria-relevant="all" itemscope itemtype="https://schema.org/Movie">
+  <h3 itemprop="name" aria-label="the name of the movie. Avatar">Avatar</h3>
+  <p itemscope itemtype="https://schema.org/Person"  itemprop="givenName" aria-label="the name of the Director. James Cameron">Director: James Cameron (born August 16, 1954)</p>
+  <p itemprop="genre" aria-label="genre of the movie.science fiction">Type: Science fiction</p>
+  <p itemprop="date published" aria-label="release date of movie. 12/18/2009">Release Date: December 18, 2009</p>
+</div>
+<div  aria-controls="person2" aria-controls="moviecontainer2" aria-relevant="all" itemscope itemtype="https://schema.org/Movie">
+  <h3 itemprop="name" aria-label="the name of the movie .Star Wars">Star Wars: Episode VII</h3>
+  <p itemscope itemtype="https://schema.org/Person"  itemprop="givenName" aria-label="the name of the Director. J.J Abrams">Director: J. J. Abrams (born June 27, 1966)</p>
+  <p itemprop="genre" aria-label="genre of the movie.science fiction">Type: Science fiction</p>
+  <p itemprop="date published" aria-label="release date of movie. 12/18/2015">Release Date: December 18, 2015</p>
+</div>
+<div aria-controls="person3" aria-controls="moviecontainer3" aria-relevant="all" itemscope itemtype="https://schema.org/Movie">
+  <h3 itemprop="name" aria-label="the name of the movie. The Titanic">Titanic</h3>
+  <p itemscope itemtype="https://schema.org/Person" itemprop="givenName" aria-label="the name of the Director. James Cameron">Director: James Cameron (born August 16, 1954)</p>
+  <p itemprop="genre" aria-label="genre of the movie. drama">Type: Drama</p>
+  <p itemprop="date published" aria-label="release date of movie. 12/19/1997">Release Date: December 19, 1997</p>
+</div>
+<div aria-controls="person4" aria-controls="moviecontainer4" aria-relevant="all" itemscope itemtype="https://schema.org/Movie">
+  <h3 itemprop="name" aria-label="the name of the movie. Schindle's List">Schindler's List</h3>
+  <p itemscope itemtype="https://schema.org/Person" itemprop="givenName" aria-label="the name of the Director. Steven Spielberg">Director: Steven Spielberg (born December 18, 1946)</p>
+  <p itemprop="genre" aria-label="genre of the movie. drama">Type: Drama</p>
+  <p itemprop="date published" aria-label="release date of movie. 12/15/1993">Release Date: December 15, 1993</p>
+</div>
+</div>
+</main>
+
+<footer role="contentinfo">
+
+  <img src="movielogo.png" alt="small photo of projector">
+  <p>List made by CNIT 132A class at CCSF</p>
+  <p>Copyright &copy; 2017</p>
+</footer>  
+<a href="./minihw1.html">main page here</a>
+<br>
+<a href="./minihw1b.html">assignments page here</a>
+
+</body>
+</html>
+

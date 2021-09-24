@@ -1,0 +1,30 @@
+body{
+    height: 0 ;
+    background-color: dimgrey;
+}
+
+header h1{
+    text-align: center;
+    text-decoration-style: wavy;
+    border: solid black 5px;
+}
+
+h3{
+    text-decoration-line: underline;
+    text-align: center;
+    font-weight: bolder;
+}
+
+main p{
+    font-family:'Times New Roman', Times, serif;
+    font-size: large;
+    letter-spacing: 3px;
+    
+}
+
+
+footer{
+    text-align: center;
+    font-weight: bold;
+}
+

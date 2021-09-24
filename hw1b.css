@@ -1,0 +1,19 @@
+body{
+    height: 0;
+    background-color:lightblue;
+}
+
+header h1{
+    border: dotted red 3px;
+    text-align: center;
+}
+
+main p {
+    text-align: center;
+    font-size: larger;
+}
+
+footer{
+    text-align: center;
+    font-weight: bold;
+}

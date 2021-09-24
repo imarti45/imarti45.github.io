@@ -1,0 +1,63 @@
+
+$width1:100%
+
+@function calculate-rem($size){
+    $rem-size: $size/16px;
+    @return #{rem-size}rem;
+}
+
+$dark: #2f2828
+$light: #eecccc
+$lighter: #fbf4f4 
+$floats: left
+$displays: inline-block
+$borders : 5px
+
+
+
+
+.wrapper 
+	width: $width1 
+	background-color: $light
+	font-size: calculate-rem(19.2px)
+.header 
+	width: $width1 
+	h1 
+		font-size: calculate-rem(40px) 
+		color: $dark
+.nav 
+	width: $width1
+	background-color: $lighter
+	font-size: calculate-rem(16px)
+	padding: calculate-rem(3.2px) 
+	ul 
+		li 
+			display: $displays
+			width: calculate-rem(160px)
+			margin-right: calculate-rem(3.2px)
+			border-radius: $borders
+			border: 1px solid transparent 
+			background-color: $light
+			color: $dark
+.col1 
+	float: $floats
+	width: $width1 - 50% 
+	background-color: $dark
+	color: $light
+.col2 
+	float: $floats
+	width: $width1 -75% 
+	background-color: $light
+	color: $dark
+	h2 
+		color: $dark
+.col3 
+	float: $floats 
+	width:  $width1 - 75% 
+	background-color: $dark
+	color: $light
+.footer 
+	width: $width1
+	background-color: $light 
+	font-size: calculate-rem(14.4px)
+ 

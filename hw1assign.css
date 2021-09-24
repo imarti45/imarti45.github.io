@@ -1,0 +1,72 @@
+body{
+    background-color: darkolivegreen;
+    height: 0;
+}
+
+
+header h1{
+    text-align: center;
+    border: 4px solid black;
+
+}
+
+.box{
+    background-color: black;
+    height: 550px;
+}
+
+.cont {
+    background-color: whitesmoke;
+    height: 200px;
+    width: 400px;
+    position:relative;
+    left: 450px;
+    top: 20px;
+}
+
+ul{
+    margin: 10px;
+    padding: 10px;
+    position:relative;
+    left: 50px;
+    top: 50px;
+}
+
+.btn1,.btn2,.btn3{
+    color: blue;
+    font-weight: bolder;
+    margin: 10px;
+    
+    padding-bottom: 25px;
+}
+
+
+#linkso a[href*="htm"]{
+ background-image: url('./workfiles/homework1/browser.png');
+ background-size: 100%;
+ background-repeat: no-repeat;
+ 
+
+}
+
+#linkso a[href$="pdf"]{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url('./workfiles/homework1/pdf.png');
+   }
+
+
+   #linkso a[href^="http"]{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url('./workfiles/homework1/intmark.png');
+   }
+   .olinks{
+    background-color: whitesmoke;
+    height: 200px;
+    width: 400px;
+    position:relative;
+    left: 450px;
+    top: 20px;
+}
+

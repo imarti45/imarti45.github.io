@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Working with Flexbox</title>
+   <meta charset="utf-8">
+   <meta name="description" content="working with flexboxes in CNIT 132A">
+   <style>
+      *{
+          margin: 0;
+          padding: 0;
+          font-weight: bolder;
+      }
+
+      body{
+          position: relative;
+          top: 150px;
+      }
+
+      header{
+          background-color: red;
+          color: black;
+          text-align: center;
+          min-height: 100px;
+          
+      }
+
+       header p ,footer p ,article p {
+          position: relative;
+          top: 25px;
+      }
+
+      footer{
+          background-color: lightgreen;
+          color: black;
+          text-align: center;
+          min-height: 100px;
+      }
+
+      main{
+          display: flex;
+          flex-flow:row wrap;
+          height: 150px;
+      }
+
+      .container{
+        
+      }
+
+      .aside1{
+          background-color: yellow;
+          flex: 0 0 200px;
+          text-align: center;
+
+      }
+      
+
+      .article1{
+          background-color: blue;
+          flex: 1 0 200px;
+          color: white;
+      }
+
+      .article2{
+          background-color:pink;
+          flex: 1 0 200px;
+          color: blue;
+      }
+      
+
+      .aside4{
+          background-color: lightpink;
+          flex: 0 0 200px;
+          text-align: center;
+      }
+   </style>
+</head>
+<body>
+<div class="container">
+<header><p>Name of company</p></header>
+<main>
+    <aside class="aside1"><h1>this is aside 1</h1></aside>
+    <article class="article1"><p>This is the main article of my page! This is the main content of my page. In a 3-column layout, it should be shown in the middle between aside 1 and aside 2</p></article>
+    <article class="article2"><p>This article was created to have some content as a challenge to the adapt the 3-column layout to a 4-column layout</p></article>
+      
+    <aside class="aside4"><h1> this is aside 2</h1></aside>
+</main>
+
+<footer>
+    <p>This is the footer</p>
+    <p>Copyright &copy; 2017</p>
+</footer>
+
+
+
+</div>
+</body>
+</html>
