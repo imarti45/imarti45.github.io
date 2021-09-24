@@ -1,0 +1,54 @@
+body{
+    background-color: wheat;
+}
+
+
+
+header h1{
+    text-align: center;
+    border: solid black 10px;
+}
+
+main p{
+    font-size: 22px;
+}
+.ul1{
+    letter-spacing: 8px;
+    font-weight: bold;
+}
+.ul2{
+    border: solid 3px black;
+    height: auto;
+    width: 100px;
+    line-height: 33px;
+
+    
+}
+
+img{
+    border: black solid 2px;
+    margin: 5px;
+    height: 400px;
+    width: 325px;
+}
+
+.box1{
+    display: inline-flex;
+    
+}
+.li1{
+    color: orange;
+}
+
+.li2{
+    color: blue;
+}
+
+.li3{
+    color: red;
+}
+
+.li4,.li5{
+    color: green;
+}
+
